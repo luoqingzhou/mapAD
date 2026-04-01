@@ -34,10 +34,10 @@ conda create -n mapbench python=3.10 && y && conda activate mapbench
 2. Install required dependencies
 
 ```bash
-conda install r-base=4.3.1
-conda install compilers
-conda install -c conda-forge xz zlib
-conda install bioconda::bioconductor-edger=4.0.16
+conda install -y r-base=4.3.1
+conda install -y compilers
+conda install -y -c conda-forge xz zlib
+conda install -y bioconda::bioconductor-edger=4.0.16
 ```
 
 3. Compile and install `milopy`
